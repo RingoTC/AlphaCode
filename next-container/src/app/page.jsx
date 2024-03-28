@@ -1,0 +1,1 @@
+"import React from 'react';\n\nconst Page = () => (\n  <div>\n    123\n  </div>\n);\n\nexport default Page;"

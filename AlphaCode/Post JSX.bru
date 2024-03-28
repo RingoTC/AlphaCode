@@ -1,0 +1,23 @@
+meta {
+  name: Post JSX
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/api
+  body: text
+  auth: none
+}
+
+body:text {
+  import React from 'react';
+  
+  const Page = () => (
+    <div>
+      33333
+    </div>
+  );
+  
+  export default Page;
+}
