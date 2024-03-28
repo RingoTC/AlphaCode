@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "PORT=400 next dev",
+    "build": "PORT=400 next build",
+    "start": "PORT=400 npx serve@latest out",
     "lint": "next lint"
   },
   "dependencies": {
